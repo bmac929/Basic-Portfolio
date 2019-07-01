@@ -51,7 +51,7 @@ a{
     text-decoration: none;
     color: #787878;
 }
-#cc{
+#cc, #triv{
     text-decoration: none;
     color: white;
 }
@@ -208,7 +208,8 @@ a{
 }
 
 .container3 {
-    height: 95px
+    height: 95px;
+    margin: auto;
 }
 
 .box {
@@ -240,4 +241,29 @@ a{
 }
 .crystal{
     background-image: url(whitegem.jpg);
+}
+.trivia{
+    background-image: url(Blue-Textured-Background.jpg)
+}
+@media screen and (max-width: 800px) {
+  .wrapper{
+       width: 100%;
+       text-align: center;
+   }
+   #title{
+       width: 100%;
+   }
+  a {
+      color: white;
+      text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    #name, #email, #message{
+        width: 100%;
+    }
+
+    
+
 }
