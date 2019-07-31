@@ -51,7 +51,7 @@ a{
     text-decoration: none;
     color: #787878;
 }
-#cc, #triv{
+#cc, #triv, #kv, #groupee{
     text-decoration: none;
     color: white;
 }
@@ -244,6 +244,12 @@ a{
 }
 .trivia{
     background-image: url(Blue-Textured-Background.jpg)
+}
+.kidVoice{
+    background-image: url(kid_voice.jpg)
+}
+.groupee{
+    background-image: url(groupee.jpg)
 }
 @media screen and (max-width: 800px) {
   .wrapper{
